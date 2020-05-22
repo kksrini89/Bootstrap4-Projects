@@ -32,3 +32,38 @@ body {
     }
 
 }
+
+#about-section {
+    .info-header {
+        border-bottom: 1px solid #d6d6d6;
+        margin: auto;
+        // width: 50%;
+    }
+}
+
+#author {
+    .info-header {
+        border-bottom: 1px solid #d6d6d6;
+        margin: auto;
+        // width: 50%;
+    }
+
+    img {
+        margin-top: -50px;
+    }
+
+    .card-body:hover{
+        background: $primary-overlay;
+        color: #fff;
+    }
+
+    .fab {
+        color: #fff;
+    }
+}
+
+#contact-section {
+    textarea {
+        resize: none;
+    }
+}
