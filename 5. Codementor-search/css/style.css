@@ -1,0 +1,35 @@
+:root {
+  --jumbotron-bg-color: #003648;
+  --wfont-color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.btn-login {
+  background: rgb(255, 107, 84);
+  color: var(--wfont-color);
+}
+
+#jumbotron {
+  background-color: #003648;
+  height: 300px;
+  padding-top: 100px !important;
+}
+
+#category-search-section {
+  margin-top: -25px;
+}
+
+#profile-section {
+}
+
+@media (max-width: 991px) {
+  #profile-section .card-img {
+    height: 250px;
+    width: 250px;
+  }
+}
